@@ -1,13 +1,16 @@
 PODS:
   - iOS-Color-Picker (1.1.3)
-  - UIImage-MARKColorizer (0.1.0)
+  - UIImage-MARKColorizer (0.1.1)
+  - UIImageView-MARKColorizer (0.1.0):
+    - UIImage-MARKColorizer (~> 0.1.1)
 
 DEPENDENCIES:
   - iOS-Color-Picker
-  - UIImage-MARKColorizer
+  - UIImageView-MARKColorizer
 
 SPEC CHECKSUMS:
   iOS-Color-Picker: f0f5bdb417940850fe408dcbc07ec6c758cc87a3
-  UIImage-MARKColorizer: cd4b747b1be96a6443b1430130e891218130d7b5
+  UIImage-MARKColorizer: 637098489b64e4ce6cca40d9163527ebd4e94d3d
+  UIImageView-MARKColorizer: 3d425c5a2288b7b0d40d5fe5a23b2fc818468ddb
 
 COCOAPODS: 0.36.0

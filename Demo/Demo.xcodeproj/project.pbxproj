@@ -14,10 +14,8 @@
 		D531DEB51AB1F645001223A8 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D531DEB41AB1F645001223A8 /* DemoTests.m */; };
 		D531DEC11AB1F76C001223A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D531DEC01AB1F76C001223A8 /* Images.xcassets */; };
 		D531DEC51AB1F773001223A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D531DEC41AB1F773001223A8 /* ViewController.m */; };
-		D531DECD1AB1F882001223A8 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D531DECA1AB1F882001223A8 /* .gitkeep */; };
 		D531DED51AB1FF25001223A8 /* UIColor+Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = D531DED41AB1FF25001223A8 /* UIColor+Demo.m */; };
 		D531DED71AB2066B001223A8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D531DED61AB2066B001223A8 /* Podfile */; };
-		D59657791AB639A6004FB567 /* UIImageView+MARKColorizer.m in Sources */ = {isa = PBXBuildFile; fileRef = D59657781AB639A6004FB567 /* UIImageView+MARKColorizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,12 +43,9 @@
 		D531DEC01AB1F76C001223A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D531DEC31AB1F773001223A8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D531DEC41AB1F773001223A8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D531DECA1AB1F882001223A8 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		D531DED31AB1FF25001223A8 /* UIColor+Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Demo.h"; sourceTree = "<group>"; };
 		D531DED41AB1FF25001223A8 /* UIColor+Demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Demo.m"; sourceTree = "<group>"; };
 		D531DED61AB2066B001223A8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D59657771AB639A6004FB567 /* UIImageView+MARKColorizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MARKColorizer.h"; sourceTree = "<group>"; };
-		D59657781AB639A6004FB567 /* UIImageView+MARKColorizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MARKColorizer.m"; sourceTree = "<group>"; };
 		EC90B1F75CFF6573DAEB25E4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -94,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				D531DED61AB2066B001223A8 /* Podfile */,
-				D531DEC91AB1F882001223A8 /* Source */,
 				D531DE971AB1F645001223A8 /* Demo */,
 				D531DEB11AB1F645001223A8 /* DemoTests */,
 				D531DE961AB1F645001223A8 /* Products */,
@@ -176,17 +170,6 @@
 				D531DEC41AB1F773001223A8 /* ViewController.m */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		D531DEC91AB1F882001223A8 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				D59657771AB639A6004FB567 /* UIImageView+MARKColorizer.h */,
-				D59657781AB639A6004FB567 /* UIImageView+MARKColorizer.m */,
-				D531DECA1AB1F882001223A8 /* .gitkeep */,
-			);
-			name = Source;
-			path = ../Source;
 			sourceTree = "<group>";
 		};
 		D531DED21AB1FF25001223A8 /* Categories */ = {
@@ -283,7 +266,6 @@
 				D531DEC11AB1F76C001223A8 /* Images.xcassets in Resources */,
 				D531DEA91AB1F645001223A8 /* LaunchScreen.xib in Resources */,
 				D531DED71AB2066B001223A8 /* Podfile in Resources */,
-				D531DECD1AB1F882001223A8 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +317,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D531DEC51AB1F773001223A8 /* ViewController.m in Sources */,
-				D59657791AB639A6004FB567 /* UIImageView+MARKColorizer.m in Sources */,
 				D531DE9E1AB1F645001223A8 /* AppDelegate.m in Sources */,
 				D531DE9B1AB1F645001223A8 /* main.m in Sources */,
 				D531DED51AB1FF25001223A8 /* UIColor+Demo.m in Sources */,

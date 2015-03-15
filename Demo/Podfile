@@ -3,5 +3,5 @@ platform :ios, '7.0'
 # ignore all warnings from all pods
 inhibit_all_warnings!
 
-pod 'UIImage-MARKColorizer'
+pod 'UIImageView-MARKColorizer'
 pod 'iOS-Color-Picker'
