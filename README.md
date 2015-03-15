@@ -25,11 +25,11 @@ Please check Demo project for a basic example on how to use UIImageView-MARKColo
 UIImage *image = [UIImage imageNamed:@"image"];
 UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
 [imageView mark_colorizeImageWithColor:[UIColor greenColor]
-                                     blendMode:kCGBlendModeMultiply];
+                             blendMode:kCGBlendModeMultiply];
 // ...
 
 UIImage *colorizedImage = [imageView mark_colorizedImageWithColor:[UIColor greenColor]
-                                                       blendMode:kCGBlendModeMultiply];
+                                                        blendMode:kCGBlendModeMultiply];
 ```
 
 ## Installation
