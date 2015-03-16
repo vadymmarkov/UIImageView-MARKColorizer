@@ -9,6 +9,9 @@ https://developer.apple.com/library/ios/documentation/GraphicsImaging/Reference/
 
 Please check Demo project for a basic example on how to use UIImageView-MARKColorizer.
 
+### Demo
+![Alt text](https://cloud.githubusercontent.com/assets/10529867/6666204/6019fc36-cbe2-11e4-9f25-d41bd2c2538a.gif "Demo")
+
 ### Available methods
 ```objc
 - (UIImage *)mark_colorizedImageWithColor:(UIColor *)color
